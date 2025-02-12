@@ -1,0 +1,664 @@
+@media only screen and (max-width:1290px){
+    .header-link>li>a{
+        font-size:12px;
+    }
+    .h6-download-text{
+        font-size:12px;
+    }
+    .text-img{
+        width:450px;
+    }
+    .android-smartphone{
+        width:300px;
+    }
+    .design-text{
+        width:500px;
+    }
+    .paragraf-design{
+        font-size:15px;
+    }
+    .h6-about-design-text{
+        font-size:13px;
+    }
+    .team-member{
+        width:300px;
+    }
+    .blog-post-img{
+        width:300px;
+    }
+    .contact-us-img{
+        display:none;
+    }
+    .conteiner-footer{
+        flex-wrap:wrap;
+        margin-bottom:90px;
+    }
+    .Line-2{
+        width:1067px;
+    }
+}
+
+@media only screen and (max-width:1215px){
+    .button-download{
+        width:148px;
+        height:40px;
+        font-size:15px;
+    }
+    .Ui-Mobile{
+        width:500px;
+    }
+    .text-img{
+        width:450px;
+    }
+}
+
+@media only screen and (max-width:1175px){
+    .design-text{
+        width:400px;
+        
+    }
+    .paragraf-design{
+        font-size:13px;
+    }
+    .h6-about-design-text{
+        font-size:11px;
+    }
+}
+
+@media only screen and (max-width:1160px){
+    .button-download{
+        width:128px;
+        height:40px;
+    }
+    .text-img{
+        width:400px;
+    }
+    .team-member{
+        width:250px;
+    }
+    .blog-post-img{
+        width:250px;
+    }
+    .Line-2{
+        width:967px;
+    }
+}
+
+@media only screen and (max-width:1115px){
+    .app-design{
+        width:420px;
+    }
+    .h6-download-app-text{
+        font-size:13px;
+    }
+}
+
+@media only screen and (max-width:1105px){
+    .Ui-Mobile{
+        width:450px;
+    }
+}
+
+@media only screen and (max-width:1090px){
+    .button-download{
+        width:90px;
+        height:30px;
+        font-size:10px;
+    }
+    .app-design{
+        width:320px;
+    }
+}
+
+@media only screen and (max-width:1050px){
+    .text-img{
+        width:350px;
+    }
+    .h6-about-text{
+        font-size:13px;
+    }
+    .Line-2{
+        width:767px;
+    }
+}
+
+@media only screen and (max-width:996px){
+    .Ui-Mobile{
+        width:400px;
+    }
+    .app-design{
+        width:260px;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .our-team-img{
+        flex-wrap:wrap;    
+    }
+    .our-recent-blog-read-div{
+        flex-wrap:wrap;
+    }
+}
+
+@media only screen and (max-width:942px){
+    .text-img{
+        width:300px;
+    }
+}
+
+@media only screen and (max-width:889px){
+    .logo-img{
+        width:150px;
+        height:70px;
+    }
+    .button-download{
+        width:70px;
+    }
+    .text-img{
+        width:250px;
+        height:435px;
+    }
+    .Ui-Mobile{
+        width:350px;
+        height:500px;
+    }
+    .app-design{
+        width:200px;
+    }
+}
+
+@media only screen and (max-width:845px){
+    .android-smartphone{
+        width:280px;
+    }
+    .design-text{
+        width:380px;
+    }
+    .h6-about-design-text{
+        font-size:11px;
+    }
+    .Line-2{
+        width:667px;
+    }
+}
+
+@media only screen and (max-width:825px){
+    .header-link>li>a{
+        font-size:10px;
+    }
+    .h6-download-text{
+        font-size:10px;
+    }
+    .logo-img{
+        width:130px;
+    }
+    .conteiner-download{
+        flex-direction:column;
+    }
+    .app-design{
+        width:520px;
+        margin-top:50px;
+    }
+    .h6-app-use-text{
+        font-size:11px;
+    }
+    .video-img{
+        width:570px;
+    }
+    .review-img{
+        width:570px;
+    }
+}
+
+@media only screen and (max-width:785px){
+    .about-design-div{
+        margin-right:120px;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .Ui-Mobile{
+        width:300px;
+        height:450px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .menu-bar{
+        display:block;
+        width:30px;
+    }
+    .h6-contact-text{
+        font-size:13px;
+    }
+    .header-link>li>a{
+        display:none;
+    }
+    .h6-download-text{
+        display:none;
+    }
+    .button-download{
+        width:158px;
+        height:40px;
+        font-size:20px;
+    }
+    .display-flex{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .text-img{
+        width:570px;
+    }
+    .Ui-Mobile{
+        width:500px;
+        height:725px;
+        top:20px;
+    }
+    .section-about-our-app{
+        overflow:hidden;
+    }
+    .about-design-div{
+        margin:0 auto;
+        flex-direction:column;
+    }
+    .android-smartphone{
+        position:relative;
+        left:120px;
+    }
+    .about-design-text-div{
+        position:relative;
+        left:85px;
+    }
+    .checkbox-img{
+        margin-left:10px;
+    }
+    .paragraf-design{
+        margin-top:10px;
+    }
+    .Line-2{
+        width:467px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .button-download{
+        width:80px;
+        font-size:11px;
+        margin-left:20px;
+    }
+    .Ui-Mobile{
+        width:400px;
+    }
+    .h6-about-text{
+        font-size:10px;
+    }
+    .android-smartphone{
+        position:relative;
+        left:60px;
+    }
+    .about-design-text-div{
+        position:relative;
+        left:40px;
+    }
+    .h6-team-reative-text{
+        font-size:13px;
+    }
+}
+
+@media only screen and (max-width:665px){
+    .our-team-img{
+        display:flex;
+        justify-content:center;
+    }
+    .team-member{
+        width:400px;
+    }
+    .our-recent-blog-read-div{
+        display:flex;
+        justify-content:center;
+    }
+    .blog-post-img{
+        width:370px;
+    }
+}
+
+@media only screen and (max-width:647px){
+    .section-our-recent-blog{
+        overflow:hidden;
+    }
+}
+
+@media only screen and (max-width:625px){
+    .download-app-div{
+        width:370px;
+        position:relative;
+        right:90px;
+    }   
+    .h6-download-app-text{
+        width:540px;
+        font-size:11px;
+        align-self:stretch;
+    }
+}
+
+@media only screen and (max-width:615px){
+    .text-img{
+        width:500px;
+    }
+    .section-download-app{
+        overflow:hidden;
+    }
+    .paragraf-download-app{
+        margin-left:50px;
+        font-size:25px;
+    }
+    .h6-download-app-text{
+        margin-left:50px;
+    }
+    .google-app-store-display-flex{
+        margin-left:50px;
+    }
+    .download-app-store-div{
+        width:120px;
+        gap:8px;
+    }
+    .donwload-like-star-rating{
+        width:120px;
+        height:130px;
+        position:relative;
+        left:50px;
+    }
+    .donwload-img{
+        width:15px;
+        margin-top:20px;
+    }
+    .h6-text{
+        font-size:10px;
+        margin-bottom:20px;
+    }
+    .app-design{
+        width:420px;
+    }
+    .video-img{
+        width:470px;
+    }
+    .review-img{
+        width:420px;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .h6-contact-text{
+        font-size:10px;
+    }
+    .Ui-Mobile{
+        width:350px;
+    }
+}
+
+@media only screen and (max-width:535px){
+    .mail-fill{
+        display:none;
+    }
+    .phone-icon{
+        display:none;
+    }
+    .h6-contact-text{
+        display:none;
+    }
+    .header-icon{
+        display:none;
+    }
+    .text-img{
+        width:450px;
+    }
+    .Ui-Mobile{
+        width:300px;
+        height:400px;
+    }
+    .about-design-div{
+        position:relative;
+        right:60px;
+    }
+    .android-smartphone{
+        position:relative;
+        left:110px;
+    }
+    .about-design-text-div{
+        position:relative;
+        left:60px;
+    }
+}
+
+@media only screen and (max-width:515px){
+    .h6-app-use-text{
+        font-size:9px;
+    }
+    .video-img{
+        width:370px;
+    }
+    .review-img{
+        width:390px;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .text-img{
+        width:400px;
+    }
+    .Ui-Mobile{
+        margin-right:80px;
+    }
+    .h6-about-text{
+        width:420px;
+        font-size:13px;
+        text-align:center;
+        margin-left:90px;
+    }
+    .android-smartphone{
+        left:60px;
+    }
+    .about-design-text-div{
+        left:20px;
+    }
+    .footer-email-input{
+        width:300px;
+    }
+    .Line-2{
+        width:367px;
+    }
+    .h6-copyright-text{
+        font-size:13px;
+        margin-top:10px;
+    }
+}
+
+@media only screen and (max-width:465px){
+    .logo-img{
+        width:100px;
+        position:relative;
+        right:20px;
+    }
+    .button-download{
+        width:70px;
+        font-size:9px;
+    }
+    .text-img{
+        width:350px;
+    }
+    .h6-about-text{
+        width:380px;
+        font-size:10px;
+        text-align:center;
+        margin-left:110px;
+    }
+    .donwload-like-star-rating{
+        width:120px;
+        height:130px;
+        position:relative;
+        left:85px;
+    }
+    .donwload-img{
+        width:15px;
+        margin-top:20px;
+    }
+    .paragraf-download-app{
+        position:relative;
+        left:30px;
+    }
+    .h6-download-app-text{
+        position:relative;
+        left:30px;
+    }
+    .google-app-store-display-flex{
+        position:relative;
+        left:30px;
+    }
+    .h6-text{
+        font-size:10px;
+        margin-bottom:20px;
+    }
+    .android-smartphone{
+        left:60px;
+    }
+    .about-design-text-div{
+        left:10px;
+    }
+    .h6-footer-text{
+        font-size:13px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .h6-about-text{
+        width:380px;
+        font-size:10px;
+        text-align:center;
+        margin-left:110px;
+    }
+    .android-smartphone{
+        left:60px;
+    }
+    .design-text{
+        width:350px;
+        margin-left:10px;
+    }
+    .checkbox-img{
+        margin-left:10px;
+    }
+    .paragraf-design{
+        font-size:10px;
+        margin-top:20px;
+    }
+    .h6-about-design-text{
+        font-size:9px;
+    }
+    .paragraf-download-app{
+        position:relative;
+        left:60px;
+    }
+    .h6-download-app-text{
+        width:500px;
+        font-size:9px;
+        position:relative;
+        left:60px;
+    }
+    .google-app-store-display-flex{
+        position:relative;
+        left:50px;
+    }
+    .app-design{
+        width:300px;
+    }
+    .h6-app-use-text{
+        text-align:center;
+    }
+    .video-img{
+        width:343px;
+    }
+    .team-member{
+        width:343px;
+        height:580px;
+    }
+    .h6-team-reative-text{
+        font-size:16px;
+    }
+    .review-img{
+        width:343px;
+        padding:24px 16px;
+        align-self:stretch;
+    }
+    .Line-2{
+        width:343px;
+    }
+    .h6-copyright-text{
+        font-size:10px;
+    }
+}
+
+@media only screen and (max-width:397px){
+    .menu-bar{
+        position:relative;
+        right:20px;
+    }
+    .button-download{
+        width:60px;
+        font-size:7px;
+    }
+    .display{
+        position:relative;
+        overflow:hidden !important;
+    }
+    .text-img{
+        width:323px;
+    }
+    .Ui-Mobile{
+        width:466px;
+        height:521px;
+        object-fit:cover !important;
+        margin-left:120px;
+    }
+    .h6-about-text{
+        width:300px;
+        height:70px;
+        font-size:12px;
+        text-align:center;
+        position:relative;
+        left:40px;
+    }
+    .android-smartphone{
+        width:238px;
+        height:324px;
+        flex-shrink:0;
+        top:20px;
+    }
+    .design-text{
+        width:343px;
+        height:110px;
+        flex-shrink:0;
+        position:relative;
+        right:10px;
+    }
+    .checkbox-img{
+        margin-top:10px;
+    }
+    .paragraf-design{
+        font-size:20px;
+        margin-top:10px;
+    }
+    .h6-about-design-text{
+        height:49px;
+        font-size:9px;
+        position:relative;
+        bottom:20px;
+    }
+    .blog-post-img{
+        width:300px;
+    }
+    .h6-our-recent-blog-text{
+        font-size:9px;
+    }
+}
+

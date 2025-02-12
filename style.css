@@ -1,0 +1,569 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.header-background{
+    width:100%;
+    min-height:1024px;
+    border:solid 1px;
+    padding:30px;
+    background-size:1024px;
+    background-image:url("background-\ image.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.header-contact{
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.header-conact-mail-phone{
+    width:340px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.h6-contact-text{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+    margin-top:10px;
+}
+
+.header-icon{
+    width:160px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+#header{
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:5px;
+    background:#FFF;
+    box-shadow:0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.menu-bar{
+    display:none;
+}
+
+.header-link{
+    width:30%;
+    display:flex;
+    align-items:center;
+    list-style:none;
+    margin-top:20px;
+    gap:30px;
+}
+
+.header-link>li>a{
+    text-decoration:none;
+    color:#232233;
+    font-family:"Josefin Sans";
+    font-size:20px;
+    font-style:normal;
+    font-weight:600;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+.header-link>li>a:hover{
+    color:#5956E9;
+    transition:0.25s;
+}
+
+.logo-img{
+    z-index:90;
+}
+
+.download-div{
+    width:30%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:10px;
+    gap:10px;
+}
+
+.h6-download-text{
+    color:#232233;
+    font-family:"Josefin Sans";
+    font-size:20px;
+    font-style:normal;
+    font-weight:600;
+    line-height:30px;
+    margin-top:15px;
+    text-transform:uppercase;
+}
+
+.h6-download-text:hover{
+    color:#5956E9;
+    transition:0.25s;
+}
+
+.button-download{
+    width:158px;
+    height:50px;
+    flex-shrink:0;
+    border:solid 1px #5956E9;
+    border-radius:5px;
+    background:#5956E9;
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:20px;
+    font-style:normal;
+    font-weight:600;
+    line-height:30px;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+.display{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.display-flex{
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+}
+
+.Ui-Mobile{
+    position:relative;
+    bottom:20px;
+    left:80px;
+}
+
+.section-about-our-app{
+    width:100%;
+    padding:30px;
+    background:#FFF;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    gap:40px;
+}
+
+.about-text-div{
+    width:601px;
+}
+
+.about-design-div{
+    width:80%;
+    min-height:600px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.paragraf-about-our-app{
+    color:#232233;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:31.25px;
+    font-style:normal;
+    font-weight:700;
+    line-height:47.25px;
+    text-transform:uppercase;
+}
+
+
+.h6-about-text{
+    color:#6C6C72;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+}
+
+.about-design-text-div{
+    width:570px;
+    display:flex;
+    flex-direction:column;
+}
+
+.design-text{
+    width:570px;
+    height:160px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:#FFF;
+    flex-shrink:0;
+    border-radius:10px;
+    box-shadow:0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    margin-top:20px;
+    gap:20px;
+}
+
+.checkbox-img{
+    margin-bottom:80px;
+}
+
+.paragraf-design{
+    color:#232233;
+    font-family:"Josefin Sans";
+    font-size:20px;
+    font-style:normal;
+    font-weight:600;
+    line-height:30px; 
+    text-transform:uppercase;
+}
+
+.h6-about-design-text{
+    color:#6C6C72;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+    margin-top:10px;
+}
+
+.section-download-app{
+    width:100%;
+    padding:10px;
+    background:#FFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.conteiner-download{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.download-app-div{
+    width:570px;
+}
+
+.paragraf-download-app{
+    color:#232233;
+    font-family:"Josefin Sans";
+    font-size:31.25px;
+    font-style:normal;
+    font-weight:700;
+    line-height:47.25px;
+    text-transform:uppercase;
+}
+
+.h6-download-app-text{
+    color:#6C6C72;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+    margin-top:20px;
+}
+
+.google-app-store-display-flex{
+    display:flex;
+    margin-top:50px;
+    gap:30px;
+}
+
+.download-app-store-div{
+    width:550px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.donwload-like-star-rating{
+    width:170px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+    border-radius: 10px;
+    background:#5851EA;
+    box-shadow:0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    gap:20px;
+}
+
+.h5-download-text{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:25px;
+    font-style:normal;
+    font-weight:600;
+    line-height:normal;
+    text-transform:uppercase;
+}
+
+.h6-text{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:20px;
+    font-style:normal;
+    font-weight:600;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+.section-use-app{
+    width:100%;
+    padding:30px;
+    min-height:477px;
+    background-image:url("perfect-background.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.paragraf-use-app{
+    color:#FFF;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:31.25px;
+    font-style:normal;
+    font-weight:700;
+    line-height:47.25px;
+    text-transform:uppercase;
+    margin-top:80px;
+}
+
+.h6-app-use-text{
+    color:#FFF;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px; 
+    margin-top:40px;
+}
+
+.video-img{
+    position:relative;
+    top:140px;
+    border-radius:10px;
+    background:linear-gradient(0deg, rgba(88, 81, 234, 0.40) 0%, rgba(88, 81, 234, 0.40) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+}
+
+.section-our-team{
+    width:100%;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+.paragraf-reative-team{
+    color:#232233;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:31.25px;
+    font-style:normal;
+    font-weight:700;
+    line-height:47.25px;
+    text-transform:uppercase;
+    margin-top:120px;
+}
+
+.h6-team-reative-text{
+    color:#6C6C72;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px; 
+}
+
+.our-team-img{
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.section-our-happy-customers{
+    width:100%;
+    padding:50px;
+    border:solid 1px;
+    background-image:url("background-\ image.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.review-img{
+    border-radius:10px;
+    background:#FFF;
+    box-shadow:0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+}
+
+.section-our-recent-blog{
+    width:100%;
+    padding:30px;
+    background:#FFF;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+.our-recent-blog-text-div{
+    width:630px;
+}
+
+.our-recent-blog-read-div{
+    width:85%;
+}
+
+.paragraf-our-recent-blog{
+    color:#232233;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:31.25px;
+    font-style:normal;
+    font-weight:700;
+    line-height:47.25px; 
+    text-transform:uppercase;
+}
+
+.h6-our-recent-blog-text{
+    color:#6C6C72;
+    text-align:center;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+    margin-top:20px;
+}
+
+.our-recent-blog-read-div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.contact-us-img{
+    width:60%;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#FFF;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 4px 10px rgba(0, 0, 0, 0.1);
+    position:relative;
+    top:150px;
+    z-index:2;
+    gap:30px;
+}
+
+.footer{
+    width:100%;
+    min-height:700px;
+    padding:30px;
+    background:#232233;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    z-index:1;
+}
+
+.conteiner-footer{
+    width:85%;
+    min-height:440px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    top:60px;
+}
+
+.footer-contact-div{
+    width:400px;
+}
+
+.paragraf-logo{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:31.25px;
+    font-style:normal;
+    font-weight:700;
+    line-height:47.25px;
+    text-transform:uppercase;
+}
+
+.h6-footer-text{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+    margin-top:20px;
+}
+
+.footer-icon-div{
+    width:280px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:50px;
+}
+
+.h6-footer-contact-text{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px;
+    margin-top:17px;
+}
+
+.copyright-div{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+    gap:30px;
+}
+
+.h6-copyright-text{
+    color:#FFF;
+    font-family:"Josefin Sans";
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    line-height:24px; 
+}
